@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+  
+<!-- Mirrored from romhandbook.com/things/hard-skin-52153 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 May 2026 04:37:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="../../www.googletagmanager.com/gtag/js4761?id=G-F7TX7CDXHN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F7TX7CDXHN');
+    </script>
+    <!-- End Google tag (gtag.js) -->
+    <title>ROM Handbook</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="rom-env" content="production">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Ejm7kkwLMBcGaVnvZWR9aNoVvq4VuNFpb2KMlfXizY0nG9Jqg3cpVHtSxNNUYjAvwomQWsZ3oK63afPa7NcZ7A" />
+    
+    <link rel="icon" type="image/x-icon" href="../assets/favicon-ee5f4bf8b56af8e4cda63ac1a2bb694fa181f4d56918c56c7710846e5417f213.ico" />
+    <link rel="stylesheet" href="../assets/application-3c4b5fe47989055d097db339de31c215a6713456c4543abf807b1cac72a11a49.css" data-turbo-track="reload" />
+    <link rel="stylesheet" href="../assets/tailwind-686ad75b47c1506c8c938ae3cac225c76f9122b4fc1f6e660cb04e98df5c89e0.css" data-turbo-track="reload" />
+<link rel="stylesheet" href="../assets/inter-font-8c3e82affb176f4bca9616b838d906343d1251adc8408efe02cf2b1e4fcf2bc4.css" data-turbo-track="reload" />
+    <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "https://romhandbook.com/assets/application-4af98e592236a1fe04ee9929459439b3ba5c0584c1b8f0f0102284c8d65e3720.js",
+    "@hotwired/stimulus": "https://romhandbook.com/assets/stimulus.min-dd364f16ec9504dfb72672295637a1c8838773b01c0b441bd41008124c407894.js",
+    "@hotwired/stimulus-loading": "https://romhandbook.com/assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js",
+    "@hotwired/turbo-rails": "https://ga.jspm.io/npm:@hotwired/turbo-rails@7.3.0/app/javascript/turbo/index.js",
+    "@hotwired/turbo": "https://ga.jspm.io/npm:@hotwired/turbo@7.3.0/dist/turbo.es2017-esm.js",
+    "@rails/actioncable/src": "https://ga.jspm.io/npm:@rails/actioncable@7.1.1/src/index.js",
+    "@rails/request.js": "https://ga.jspm.io/npm:@rails/request.js@0.0.9/src/index.js",
+    "@rails/ujs": "https://ga.jspm.io/npm:@rails/ujs@7.1.1/app/assets/javascripts/rails-ujs.esm.js",
+    "controllers/application": "https://romhandbook.com/assets/controllers/application-0a88d7da94dddbd4b5db3a7e58aba83c761c0de29f578c197e4e41a3a79d014f.js",
+    "controllers/dismiss_controller": "https://romhandbook.com/assets/controllers/dismiss_controller-78da316b076704fb22eecd6f6b68baebc3c28fbd30865c49f3ed0ef25de9213f.js",
+    "controllers": "https://romhandbook.com/assets/controllers/index-281c86b7ad1612bd967760cbd501c66fe8bda0dff0c11ef4b93cd940f3c1956b.js",
+    "controllers/infinite_scroll_controller": "https://romhandbook.com/assets/controllers/infinite_scroll_controller-e4b57d3e1897995fefef430ed8806b45ed79e5db2231ab0de8666f9b5e118d1f.js",
+    "controllers/scroller_controller": "https://romhandbook.com/assets/controllers/scroller_controller-298a184521c1260035d08490b25801a7a81425350ccf8b1b654ce87551aa3749.js",
+    "controllers/server_roles_form_controller": "https://romhandbook.com/assets/controllers/server_roles_form_controller-f46a86ec0df3f7e323dae01b0cc3d82f1c61f974605f6ff850cb1437031e5549.js",
+    "lib/adblock-gate": "https://romhandbook.com/assets/lib/adblock-gate-59d2ce0d8a68de94a21c1e8a7fc96771136c9c1fa34a35373803f6fbda47c969.js",
+    "lib/app": "https://romhandbook.com/assets/lib/app-63654564313fc163f8d1b54c2d30dbc8555894cfd3df3d83bc1dbdc260d7beda.js",
+    "lib/color-mode": "https://romhandbook.com/assets/lib/color-mode-3ad4e855664762b57096786f8de9e47e44b85b1aebc931d144e5c1c997f574cc.js",
+    "lib/flexsearch": "https://romhandbook.com/assets/lib/flexsearch-d3fac6cecc69dcf639d7e5246fd1ceee7481e12cdb4c043b72c7e8e579fd4c57.js",
+    "lib/search-modal": "https://romhandbook.com/assets/lib/search-modal-0adee64ccb6f5d69dd857e187579d830fc204367c7c20652f47f14028cf503aa.js"
+  }
+}</script>
+<link rel="modulepreload" href="../assets/application-4af98e592236a1fe04ee9929459439b3ba5c0584c1b8f0f0102284c8d65e3720.js">
+<link rel="modulepreload" href="../assets/stimulus.min-dd364f16ec9504dfb72672295637a1c8838773b01c0b441bd41008124c407894.js">
+<link rel="modulepreload" href="../assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js">
+<link rel="modulepreload" href="../../ga.jspm.io/npm_%40hotwired/turbo-rails%407.3.0/app/javascript/turbo/index.js">
+<link rel="modulepreload" href="../../ga.jspm.io/npm_%40hotwired/turbo%407.3.0/dist/turbo.es2017-esm.js">
+<link rel="modulepreload" href="../../ga.jspm.io/npm_%40rails/actioncable%407.1.1/src/index.js">
+<link rel="modulepreload" href="../../ga.jspm.io/npm_%40rails/request.js%400.0.9/src/index.js">
+<link rel="modulepreload" href="../../ga.jspm.io/npm_%40rails/ujs%407.1.1/app/assets/javascripts/rails-ujs.esm.js">
+<link rel="modulepreload" href="../assets/controllers/application-0a88d7da94dddbd4b5db3a7e58aba83c761c0de29f578c197e4e41a3a79d014f.js">
+<link rel="modulepreload" href="../assets/controllers/dismiss_controller-78da316b076704fb22eecd6f6b68baebc3c28fbd30865c49f3ed0ef25de9213f.js">
+<link rel="modulepreload" href="../assets/controllers/index-281c86b7ad1612bd967760cbd501c66fe8bda0dff0c11ef4b93cd940f3c1956b.js">
+<link rel="modulepreload" href="../assets/controllers/infinite_scroll_controller-e4b57d3e1897995fefef430ed8806b45ed79e5db2231ab0de8666f9b5e118d1f.js">
+<link rel="modulepreload" href="../assets/controllers/scroller_controller-298a184521c1260035d08490b25801a7a81425350ccf8b1b654ce87551aa3749.js">
+<link rel="modulepreload" href="../assets/controllers/server_roles_form_controller-f46a86ec0df3f7e323dae01b0cc3d82f1c61f974605f6ff850cb1437031e5549.js">
+<link rel="modulepreload" href="../assets/lib/adblock-gate-59d2ce0d8a68de94a21c1e8a7fc96771136c9c1fa34a35373803f6fbda47c969.js">
+<link rel="modulepreload" href="../assets/lib/app-63654564313fc163f8d1b54c2d30dbc8555894cfd3df3d83bc1dbdc260d7beda.js">
+<link rel="modulepreload" href="../assets/lib/color-mode-3ad4e855664762b57096786f8de9e47e44b85b1aebc931d144e5c1c997f574cc.js">
+<link rel="modulepreload" href="../assets/lib/flexsearch-d3fac6cecc69dcf639d7e5246fd1ceee7481e12cdb4c043b72c7e8e579fd4c57.js">
+<link rel="modulepreload" href="../assets/lib/search-modal-0adee64ccb6f5d69dd857e187579d830fc204367c7c20652f47f14028cf503aa.js">
+<script type="module">import "application"</script>
+    <link href="../../cdn.jsdelivr.net/npm/prismjs%401.24.1/themes/prism-twilight.css" rel="stylesheet">
+    <link href="../../cdn.jsdelivr.net/npm/prismjs%401.24.1/plugins/line-numbers/prism-line-numbers.css" rel="stylesheet">
+    <link href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <script src="../../code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../../cdn.jsdelivr.net/npm/select2%404.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link href="../../cdn.jsdelivr.net/npm/select2%404.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet">
+    <script>
+      // force dark mode
+      localStorage.setItem("theme", "dark")
+    </script>
+    <style>
+      pre[class*="language-" ],
+      code[class*="language-"] {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body class="single section docs" data-bs-spy=scroll data-bs-target=#toc data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll=true tabindex=0>
+    <div class="sticky-top">
+  <header class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="flex flex-auto">
+        <div class="hidden md:block md:px-5">
+          <a class="navbar-brand me-auto me-lg-3 w-full" href="../index.html">ROM Handbook</a>
+        </div>
+        <div class="block md:hidden">
+          <a href="../index.html">
+            <img src=../assets/icons/cards-1efb38587349260b1a4cdb5db210b27951ab3f8fd9aa1b94cea303cf1b4102ac.png alt="ROM Logo" class="w-10">
+</a>        </div>
+        <div class="w-full mx-auto md:w-1/2">
+          <form class="" action=https://romhandbook.com/search method="get">
+            <input tabindex="1" class="form-control me-2 bg-transparent" type="search" name="query" placeholder="Search" aria-label="Search" value="">
+          </form>
+        </div>
+      </div>
+      <button class="btn btn-link d-lg-none" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasNavSection aria-controls=offcanvasNavSection aria-label="Open section navigation menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="4" y1="8" x2="20" y2="8"/>
+          <line x1="4" y1="16" x2="20" y2="16"/>
+        </svg>
+      </button>
+      <div class="offcanvas offcanvas-start d-lg-none" tabindex=-1 id=offcanvasNavSection aria-labelledby=offcanvasNavSectionLabel>
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id=offcanvasNavSectionLabel>ROM Handbook</h5>
+          <button type=button class="btn btn-link nav-link p-0" data-bs-dismiss=offcanvas aria-label=Close>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M18 6 6 18"/>
+              <path d="M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <aside class="doks-sidebar mt-n3">
+            <nav id=doks-docs-nav aria-label="Tertiary navigation">
+              <ul class="list-unstyled collapsible-sidebar">
+                <li class="mt-8">
+  <h5 class="mb-2 text-sm font-semibold tracking-wide text-white uppercase lg:text-xs dark:text-white">Handbook</h5>
+  <ul class="py-1 list-unstyled fw-normal small">
+    <li><a class="text-base" href="../shutdown.html">Shutdown Notice</a></li>
+    <li><a class="text-base" href="../guides.html">Guides</a></li>
+    <li><a class="text-base" href="../monsters.html">Monsters</a></li>
+    <li><a class="text-base" href="../jobs.html">Jobs</a></li>
+    <li><a class="text-base" href="../skills.html">Skills</a></li>
+    <li><a class="text-base" href="../aesirs.html">Aesirs</a></li>
+    <li><a class="text-base" href="../plagiarism.html">Plagiarism</a></li>
+    <li><a class="text-base" href="../ancient_equips.html">Ancient Equips</a></li>
+    <li><a class="text-base" href="../headwears.html">Headwears</a></li>
+    <li><a class="text-base" href="../equipments.html">Equipments</a></li>
+    <li><a class="text-base" href="../maps.html">Maps</a></li>
+    <li><a class="text-base" href="../formulas.html">Formulas</a></li>
+    <li><a class="text-base" href="../buffs.html">Buffs</a></li>
+    <li><a class="text-base" href="../cards.html">Cards</a></li>
+    <li><a class="text-base" href="../relics.html">Relics</a></li>
+    <li><a class="text-base" href="../dummy.html">Home Dummy</a></li>
+    <li><a class="text-base" href="../oracle_mirrors.html">Oracle Mirrors</a></li>
+    <li><a class="text-base" href="../mounts.html">Mounts</a></li>
+    <li><a class="text-base" href="../pets.html">Pets</a></li>
+    <li><a class="text-base" href="../artifacts.html">Artifacts</a></li>
+    <li><a class="text-base" href="../arcane_runes.html">Arcane Runes</a></li>
+  </ul>
+</li>
+
+              </ul>
+            </nav>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+
+    <div class="wrap container-fluid" role=document>
+      <div class=content>
+        <div class="mt-3">
+  <div class="rounded-md border border-red-500/40 bg-red-500/10 px-3 py-2.5 text-sm text-red-100">
+    <span class="font-semibold">ROM Handbook will shut down on 31st May 2026.</span>
+    <span class="text-red-100/90">Download or back up anything you need before then. Thanks for the fishes.</span>
+    <a class="ml-2 font-semibold text-red-50 underline underline-offset-4" href="../shutdown.html">Read the notice</a>
+  </div>
+</div>
+
+        <div class="row flex-xl-nowrap">
+          <div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+  <ul class="mb-0 list-unstyled">
+    <li class="mt-8">
+  <h5 class="mb-2 text-sm font-semibold tracking-wide text-white uppercase lg:text-xs dark:text-white">Handbook</h5>
+  <ul class="py-1 list-unstyled fw-normal small">
+    <li><a class="text-base" href="../shutdown.html">Shutdown Notice</a></li>
+    <li><a class="text-base" href="../guides.html">Guides</a></li>
+    <li><a class="text-base" href="../monsters.html">Monsters</a></li>
+    <li><a class="text-base" href="../jobs.html">Jobs</a></li>
+    <li><a class="text-base" href="../skills.html">Skills</a></li>
+    <li><a class="text-base" href="../aesirs.html">Aesirs</a></li>
+    <li><a class="text-base" href="../plagiarism.html">Plagiarism</a></li>
+    <li><a class="text-base" href="../ancient_equips.html">Ancient Equips</a></li>
+    <li><a class="text-base" href="../headwears.html">Headwears</a></li>
+    <li><a class="text-base" href="../equipments.html">Equipments</a></li>
+    <li><a class="text-base" href="../maps.html">Maps</a></li>
+    <li><a class="text-base" href="../formulas.html">Formulas</a></li>
+    <li><a class="text-base" href="../buffs.html">Buffs</a></li>
+    <li><a class="text-base" href="../cards.html">Cards</a></li>
+    <li><a class="text-base" href="../relics.html">Relics</a></li>
+    <li><a class="text-base" href="../dummy.html">Home Dummy</a></li>
+    <li><a class="text-base" href="../oracle_mirrors.html">Oracle Mirrors</a></li>
+    <li><a class="text-base" href="../mounts.html">Mounts</a></li>
+    <li><a class="text-base" href="../pets.html">Pets</a></li>
+    <li><a class="text-base" href="../artifacts.html">Artifacts</a></li>
+    <li><a class="text-base" href="../arcane_runes.html">Arcane Runes</a></li>
+  </ul>
+</li>
+
+  </ul>
+</div>
+
+          <div class="col container-fw d-lg-flex flex-lg-row justify-content-left mx-auto">
+            <main class="docs-content col-lg-12 col-xl-12">
+                <div class="">
+    <div>
+      <div class="flex min-w-0 gap-x-4">
+        <img class="h-12 w-12 flex-none rounded bg-gray-50" src="../assets/items/item_52153-9ad1a09c17a9e3de4e04f48b09f5267c8f53aa8bec6f2ecaf6e2121cc4166999.png" />
+        <div class="min-w-0 flex-auto">
+          <span class="text font-semibold leading-6 text-emerald-200">
+            Hard Skin
+          </span>
+            <br>
+            <span class="inline-flex items-center rounded-md bg-gray-100 px-1 text-xs text-gray-600 ring-1 ring-inset ring-gray-500/10">
+              Crafting Material
+            </span>
+        </div>
+      </div>
+      <div class="mt-1 grid grid-cols-1">
+        <div class="border-t border-gray-200 pt-2">
+            <p class="text-base">Hard monster&#39;s skin. I wonder what you can make with it?</p>
+
+        </div>
+        <div class="mt-2">
+          <div class="grid grid-cols-12">
+      <div class="border-t border-dashed mt-2 py-1 col-span-2">
+    <span class="text-sm font-light leading-6 text-emerald-200">
+      Craftable
+    </span>
+  </div>
+  <div class="border-t border-dashed mt-2 py-1 col-span-10">
+    <div class="flex min-w-0 gap-x-4 py-1">
+      <div class="grid grid-cols-1 gap-2">
+          <div>
+            <a href="plant-bottle-12558.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_12558-e748c3403c290068a04012e6b2caeec3c004ea80c16155183da9ce1814dae020.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    12 x Plant Bottle
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="runestone-verkana-12577.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_12577-a27495654d1503e57ec0cf5ed243f806a12338b361c806af737367eb8b104dbf.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    10 x Runestone Verkana
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="cabinet-melodious-30003.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30003-a64789ea53a5731c7adcff209530337410a6e89574bfdd7e4bf1dc82991d813a.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    303 x Cabinet - Melodious
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="desk-carving-time-30010.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30010-95b2a71cd1af7764409e128640fa5c4fbed5e01dd4779a03aa0802ea97e35e7a.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    380 x Desk - Carving Time
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="window-night-light-30101.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30101-a4b145fc77635f1fb562b19592e71ece684c295d9fe8a2c3e671fc4dee0b4f79.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    301 x Window - Night Light
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="dining-table-daily-meal-30105.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30105-964678670d1eb47e09a54815cb104c3445f71aaecb1d4bb1954f6336a19f3bb8.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    425 x Dining Table - Daily Meal
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="floor-walking-river-30116.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30116-9697f65bd12805f8e3ac580854c1a91a71828b498d63282e6aecd259119b2a9e.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    282 x Floor - Walking River
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="dining-table-romantic-memory-30203.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30203-efe42a9d4a8433f462bb132bf2495c114262b0ed2903c2502efb086c8619a07c.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    415 x Dining Table - Romantic Memory
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="window-love-heart-30215.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30215-6416ce2c0b9bb9d551072f43529102acd523aa4189ab9fec008ad3b880ee2a3d.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    345 x Window - Love Heart
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="floor-love-donut-30217.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30217-71ce0ce5478a1a14e868b61d18455f8e74a9e7fa211efce2ee1ae6de6a8062a6.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    335 x Floor - Love Donut
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="sofa-hard-bed-30301.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30301-98a51c432bfffd90a17c5707819e554ed2b5b132d5f49ccffa546a9814f61588.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    505 x Sofa - Hard Bed
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="sofa-light-pillow-30302.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30302-e3108eb167156b2dc510cb85bcc6e000d7b6dfe18a821fb7823b0cc626ff1b69.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    512 x Sofa - Light Pillow
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="sofa-distant-dream-30303.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30303-012c7a1555b256c7e275feebc2c0f3ef8a35118e7e0bd5ab1e2801887dff1e31.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    521 x Sofa - Distant Dream
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="bedside-cupboard-warm-night-30325.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30325-84f3ea0bb83860aef4fa9431e2fe653b20e1907a6807b9ba40e6f2e8da1d28aa.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    250 x Bedside Cupboard - Warm Night
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="chair-nap-30410.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30410-0d5af1e17a71bf5c937251220a356dcf99ac3a40d2fb3336bec72d0980681e49.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    520 x Chair - Nap
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="lonely-platform-30706.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30706-a0a24bc2509a9f6a5a17f43ef3c007b6ca077a148d0fc54e2181f6ce9f4d7588.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    383 x Lonely Platform
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="class-guard-30711.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30711-5e76212bf4d6aa6dbe015bf10e3c92f860f826746c4ad0058320667ae168dc74.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    199 x Class Guard
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="the-naughtiest-locker-30718.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_30718-a953815a0f0813eef9a4087f6d24211406ce10d9e763d329433fc0606dcbfdcc.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    328 x The Naughtiest Locker
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="incense-burner-purple-smoke-31228.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_31228-7f1c76f35d5774fe9ba24e09085858a39c9e3bedc3108cb159dde2c56e01ac64.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    774 x Incense Burner - Purple Smoke
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="fountain-sweet-pudding-38002.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38002-9ab91e0c04ac9d73126af3a971aa13739c928fcfe5a302ccacc9d9d7970e66b7.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    1012 x Fountain - Sweet Pudding
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="fountain-poring-s-afternoon-tea-38003.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38003-abf5bd41ceda34761947a426a53acf785450ab886fa4f7310efb107a466c4723.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    1021 x Fountain - Poring’s Afternoon Tea
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="cozy-courtyard-flower-clusters-38043.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38043-4977f6ed9206fd1a571afdcfc5d85357a9161d570c873ad29ca28051d14ea98f.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    215 x · Cozy courtyard flower clusters
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="wooden-stool-38046.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38046-7a51c549664a7be03ebe88c8e8d877823744dc032fd4b13786eb0d099b03d348.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    268 x Wooden Stool
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="sea-man-chest-38076.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38076-b8aa27b3ceef2929bb8591fce4a24b8860eaf854f8d5e838de03163a7108ea9d.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    375 x Sea man chest
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="micro-autumn-maple-38080.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38080-3bd57d411b4df3b61f348de6ba032c49ccd8e39c00c2534a574c83050f1fe568.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    240 x Micro autumn maple
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="waveguide-energy-saving-lamps-38086.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38086-c783e9fc7583f4f10bda28e2207101a1a3c20d2ff141d3f89ff904c46c8d7ef3.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    260 x Waveguide energy saving lamps
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="blush-big-wheel-38098.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38098-f3ad4f1b736934a8429b733fde868fe7a68f82172c8fe9a0fff3edbfee2fc238.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    512 x Blush Big Wheel
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="brick-self-heating-foot-warmer-38099.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_38099-b7206432f69ea8c5f5118595ff8c9eb316097eb7f465654eff90e9ec099afcec.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    270 x Brick Self-heating Foot Warmer
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="self-sounding-piano-39715.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/icons/default_icon-9cb787f97575591cb631a0feb2ec8a3ca56f4045cbb18e743781d675bdb76017.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    770 x Self-sounding piano
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="night-swing-boat-39722.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/icons/default_icon-9cb787f97575591cb631a0feb2ec8a3ca56f4045cbb18e743781d675bdb76017.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    798 x Night Swing Boat
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="double-bound-1-41208.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_41208-b6954bb97cd7e1777590a0c070b4e0f3c41eeba3af3abc60b0f83fd6b6082e1d.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    185 x Double Bound [1]
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="ninja-suit-sakura-42019.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_42019-c446832e92efd0ed5a6b7ef0dc86d14a5ca19d5537b289e08326459b523af042.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    165 x Ninja Suit Sakura
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="adventure-hero-shield-42685.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_42685-74f3baee02fcf964897f4e22238cc8aca580391139f80d6489c87e3e5af1770e.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    800 x Adventure Hero Shield
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="goibne-s-spaulders-43014.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_43014-97c793e905df7048b7f2b5665ba34d888e4d9590768258119ff1e4cd508a5fb4.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    231 x Goibne&#39;s Spaulders
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="staunch-cape-43027.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_43027-1e6cf825b1082f395e9d782c5cec9036bcfe419690a2ba2a748d0a98b5fe6028.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    308 x Staunch Cape
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="renowned-blade-muramasa-1-44602.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_44602-ca5f49a7b20ad3199c498f1e909b74c8365542b03812f2bc0558158b958093c9.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    350 x Renowned Blade - Muramasa [1]
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="western-grace-45012.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45012-41bc8e8b3e3ff3be243f694e662624e776fcb871979cc96b8df605c641c7e2db.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    565 x Western Grace
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="mini-propeller-45021.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45021-5d3474942e7c9205eeb22a56ac56549253c38b17e6295db765371fef60213ee1.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    1373 x Mini Propeller
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="sweet-gent-45023.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45023-71552f0baf8bb9b8f9126e8dc525a66a6870d17be37406762f04ea1af9ec3720.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    1373 x Sweet Gent
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="safety-helmet-45025.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45025-88f8592bcf107a1a0dcaae36e4e1bb7cc0e2a66b75ec1f27e3e2737596849fb7.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    464 x Safety Helmet
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="indian-fillet-45026.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45026-50a7e62f045dcc67d03e18ecf912f69cd0722ae3999c743974824aa0632b6140.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    354 x Indian Fillet
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="peco-peco-hairband-45030.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45030-1a51f9c8e25191664537bae5c355efbb28d87d2571a8f846ad6b6b070e6123b8.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    1373 x Peco Peco Hairband
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="leather-goggles-45032.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45032-f2b5f2de50b1c7f083369f360e0da8255db3b088f78b7e0334c3b9cbe737af88.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    277 x Leather Goggles
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="stop-post-45037.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45037-53ef6d0525fcbd1a9911ba30e557406a492bfd8a460503afa4591810b81b0eae.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    531 x Stop Post
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="apple-of-archer-45045.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45045-c07aa76cd569e7dd952f6f617f4a45df073b5b4ab75c4d5cf5bf81ad6f5b462c.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    418 x Apple of Archer
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="orc-helm-45049.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45049-0164a240514c98c53a4a0d803fc0313e3009a0744e83f36adfdb207e42741b1f.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    1212 x Orc Helm
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="pretend-murdered-45083.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45083-77a3c3050791691035d06aaa43e2d183775131707635ec4f022f46cc3218126a.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    743 x Pretend Murdered
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="magni-s-cap-45118.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45118-0f9c0e9f60e4587977a127d39908fb7bcefb92bdb05d99710815d759374e090f.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    743 x Magni&#39;s Cap
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="angeling-hairpin-45127.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45127-ece26d6acbfd2d39c39f3763d6279fe7991a37c6dbe32d5f29eb78085255ed71.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    118 x Angeling Hairpin
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+          <div>
+            <a href="beret-45128.html">
+              <div class="flex min-w-0 gap-x-4">
+                <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/items/item_45128-fa32a6dc92db384a11f81cbb0832f87bd5585d6e68a27be2f671b4bd30b6eeef.png" />
+                <div class="min-w-0 flex-auto">
+                  <span class="text-sm font-semibold leading-6 text-emerald-200">
+                    848 x Beret
+                  </span>
+                </div>
+              </div>
+</a>          </div>
+      </div>
+    </div>
+  </div>
+
+      <div class="border-t border-dashed mt-2 py-1 col-span-2">
+    <span class="text-sm font-light leading-6 text-emerald-200">
+      Dropped by
+    </span>
+  </div>
+  <div class="border-t border-dashed mt-2 py-1 col-span-10">
+    <div class="grid grid-cols-4 gap-2">
+        <a href="../monsters/vagabond-wolf.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/VagabondWolf-b09d68a24e2a49001a368a7bc2c4ad4d64b6651ac855eb87cfd74538c06949f5.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Vagabond Wolf
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/peco-peco.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/Pecopeco-180daf266bc21dabdd5a3d9ff4504ff3cdf3c986912de5ee15e774a972457bf6.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Peco Peco
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/desert-wolf.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/DesertWolf-5e393158485f5da0355628ebd1d0977bff42f2828893d84499aeb7a45edc0b4e.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Desert Wolf
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/matyr.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/Matyr-88fb2a35b60c2681c4208dc7a83cb74cf004ab73dfd12c46ded55db3f09f8631.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Matyr
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/bigfoot.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/Bigfoot-89cf5e98c7033c6029a4358b5dff8c383cc368106b94a92f4dd19032278751cf.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Bigfoot
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/savage.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/Savage-02da690a421403f810a312c3ffc22ee7aecad84e3d4a9b66c1eaf1a598325193.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Savage
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/goblin-leader.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/Goblin_King-4dce5686312f78a9cbc294fcf800cd46022c82e2569d1609260100e38d487135.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Goblin Leader
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/phreeoni-30009.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/Phreeoni-4c9acdcb955fbdd4fa02324393028fe373f852e88909c03bace731d24dceff1c.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Phreeoni
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/goblin-leader-204140.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/Goblin_King_dead-f21c2b4b31e5c8c1ddf9c2709b3570876c4517dbbc84a931e9cc1887cfddd9b8.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Goblin Leader
+              </span>
+            </div>
+          </div>
+</a>        <a href="../monsters/phreeoni-204110.html">
+          <div class="flex min-w-0 gap-x-4">
+            <img class="h-8 w-8 flex-none rounded bg-gray-50" src="../assets/faces/Phreeoni_dead-5739eb14ce4811fae5f07467e17f369e5c8accfb24a2f35531ff89769027bde1.png" />
+            <div class="min-w-0 flex-auto">
+              <span class="text-sm font-semibold leading-6 text-emerald-200">
+                Phreeoni
+              </span>
+            </div>
+          </div>
+</a>    </div>
+  </div>
+
+</div>
+<div class="border-t border-dashed py-2"></div>
+<div>
+  <div>
+    <p class="font-medium text-gray-100">Formula</p>
+  <pre><code class="language-json" style=''>{
+  &quot;id&quot;: 52153,
+  &quot;Desc&quot;: &quot;##131497&quot;,
+  &quot;Icon&quot;: &quot;item_52153&quot;,
+  &quot;Type&quot;: 70,
+  &quot;MaxNum&quot;: 99999,
+  &quot;NameZh&quot;: &quot;##113315&quot;,
+  &quot;Feature&quot;: 1,
+  &quot;SellPrice&quot;: 7,
+  &quot;AuctionPrice&quot;: 1
+}</code></pre>
+</div>
+
+</div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer text-muted">
+  <div class="container-fluid">
+    <div class="row">
+    </div>
+  </div>
+</footer>
+
+    <script src="../../cdn.jsdelivr.net/npm/prismjs%401.24.1/components/prism-core.min.js"></script>
+    <script src="../../cdn.jsdelivr.net/npm/prismjs%401.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="../../cdn.jsdelivr.net/npm/prismjs%401.24.1/plugins/line-numbers/prism-line-numbers.js"></script>
+  <script defer src="../../static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"2ba834d4245f4037831bc31370c79671","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0098a86de2e9bda',t:'MTc3OTU5Njc3NQ=='};var a=document.createElement('script');a.src='../cdn-cgi/challenge-platform/h/b/scripts/jsd/1eec422858ff/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from romhandbook.com/things/hard-skin-52153 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 May 2026 04:37:35 GMT -->
+</html>
